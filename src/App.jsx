@@ -1,17 +1,15 @@
 import "./App.css";
 import movies from "./assets/movies.json";
 
-console.log(movies);
+//console.log(movies);
 
 function App() {
   return (
-    <>
-      <h2>{array.category}</h2>
-      <h2>Séries françaises</h2>
-      <h2>Comédies</h2>
-      <h2>Nouveautés</h2>
-      <h2>Documentaires</h2>
-    </>
+    <h2>
+      {movies.map((movie) => {
+        return <li key={movie.category}></li>;
+      })}
+    </h2>
   );
 }
 

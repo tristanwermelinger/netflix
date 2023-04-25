@@ -1,4 +1,5 @@
 import "./App.css";
+import "../public/data.json";
 
 function App() {
   return (

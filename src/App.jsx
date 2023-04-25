@@ -1,5 +1,7 @@
 import "./App.css";
-import "./assets/data.json";
+import movies from "./assets/movies.json";
+
+console.log(movies);
 
 function App() {
   return (
